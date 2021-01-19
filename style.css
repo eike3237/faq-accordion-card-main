@@ -9,7 +9,51 @@ html, body {
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     background-repeat: no-repeat;
 }
 
+section {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: hsl(240, 5%, 91%);
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 602px, 100px;
+    background-position-x: -196px;
+    background-position-y: -34px;
+
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* IMAGEM */
+
+.images_main {
+    width: 50%;
+    display: flex;
+}
+
+.faq_main {
+    width: 50%;
+
+}
+
+.images_main--box {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -83px;
+}
+
+.images_main--woman {
+    margin: auto;
+    margin-left: -73px;
+}
+
+/* FAQ */
