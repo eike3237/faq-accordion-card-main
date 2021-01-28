@@ -10,3 +10,13 @@ function showAnswer (id, faq_quest) {
         document.getElementById(faq_quest).style.fontWeight = 700;        
     }
 }
+
+function focusText (questionText) {
+    document.getElementById(questionText).style.color = 'hsl(14, 88%, 65%)'
+    document.getElementById(questionText).style.cursor = 'pointer'
+}
+
+function unfocusText (questionText) {
+    document.getElementById(questionText).style.color = 'hsl(237, 12%, 33%)'
+    document.getElementById(questionText).style.cursor = 'default'
+}
