@@ -75,13 +75,32 @@ section {
     color: hsl(237, 12%, 33%);
     font-size: 16px;
     font-weight: 400;
-    max-width: fit-content;
+    width: 400px;
     
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: solid hsl(240, 6%, 50%) 1px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ANSWERS */
-.faq_answer {
+.faq_answer { /*To show and Hide answer*/
     display: none;
+
+    width: 375px;
+    color: hsl(240, 6%, 50%);
+    font-size: 14px;
+
+    margin-top: 14px;
+    line-height: 1.5;
+   
+}
+
+.faq_question button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline-style: none; /*Hide outline when button is clicked*/
+    background: none;
 }
